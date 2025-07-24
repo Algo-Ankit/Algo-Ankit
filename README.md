@@ -46,7 +46,7 @@ I'm a Computer Science student from Jaipur, driven by a deep passion for buildin
     <td width="65%">
       <h4 align="center">SmartStock Optimizer</h4>
       <p>
-        An interactive web application built with Streamlit to analyze stock performance and optimize portfolio strategies. Users can visualize data, apply financial models, and receive data-driven investment insights.
+        Developed as a solution for a <strong>Walmart-sponsored hackathon</strong>, this interactive application tackles complex stock portfolio optimization. Built with Streamlit, it allows users to visualize financial data, apply predictive models, and receive data-driven insights to maximize returns.
       </p>
       <p align="center">
         <a href="https://github.com/Algo-Ankit/smartstock-optimizer" target="_blank"><img src="https://img.shields.io/badge/View_Code-232F3E?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/></a>
@@ -54,7 +54,7 @@ I'm a Computer Science student from Jaipur, driven by a deep passion for buildin
       </p>
     </td>
     <td width="35%">
-      <img src="LINK_TO_YOUR_PROJECT_GIF.gif" alt="Project GIF" />
+      <img src="LINK_TO_YOUR_PROJECT_GIF_OR_SCREENSHOT.png" alt="Project Visual" />
     </td>
   </tr>
 </table>
