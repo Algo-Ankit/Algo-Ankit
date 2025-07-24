@@ -1,44 +1,45 @@
 # Hey there, I'm Ankit 👋
 
-## 🛠️ Developer | 🤖 AI Enthusiast | 🧩 Problem Solver
+### Aspiring Software Engineer specializing in AI/ML and Algorithmic Problem-Solving.
 
-I'm a focused student with a passion for engineering impactful solutions—whether it's sharpening my edge in competitive programming, optimizing real-world systems, or building scalable AI and software projects.
-
-- 💻 **Languages:** Python, Java, C++, JavaScript  
-- 🧠 **Interests:** Software development, AI engineering, quantitative development  
-- 🏗️ **Approach:** I live to solve DSA, competitive programming, and real-world problems—always striving for clean, scalable solutions.
+I'm a Computer Science student with a deep passion for building scalable software and intelligent systems. I thrive on the challenge of competitive programming and apply that same rigor to every project I undertake.
 
 ---
 
-### 🚦 Highlight Project
+### 🛠️ My Tech Stack
 
-**SupplyChain Optimizer**  
-A smart platform that reimagines supply chain and distribution: cutting costs, reducing waste, and streamlining transportation for warehouse-based models.
-
----
-
-### 💡 What Drives Me
-
-- Building scalable AI and software for pressing real-world needs
-- Exploring the intersection of tech, material science, and semiconductor fabrication
-- Constantly growing my skills for SDE, AI, and quant roles
+| Languages | Libraries & Frameworks | Databases & Platforms | Tools |
+|---|---|---|---|
+| `Python` `Java` `C++` | `PyTorch` `Scikit-learn` `Pandas` `NumPy` | `SQL` `MongoDB` `AWS` | `Git` `Docker` `Linux` |
 
 ---
 
-### 🌐 Find Me Here
+### ⭐ Highlight Project
 
-- Twitter / X: [@AlgoAnkit](https://twitter.com/AlgoAnkit)
-
----
-
-### 🎮 Beyond Code
-
-- Esports and FPS games player & gaming fan  
-- Tennis player  
-- Research reader—especially in materials science & semiconductor innovation
+> #### SupplyChain Optimizer
+> A smart platform that reimagines supply chain distribution by implementing advanced optimization algorithms. The system is designed to cut operational costs, reduce material waste, and streamline transportation logistics for warehouse-based models.
+>
+> *[View Project on GitHub](LINK_TO_YOUR_PROJECT_REPO)*
 
 ---
 
-> “I love cracking tough problems—whether it’s a puzzle, a program, or a process.”
+### 💡 My Philosophy & Interests
 
-Thanks for visiting!
+* **Problem-First Mindset:** I believe the most elegant solutions come from a deep understanding of the problem itself. I love cracking tough challenges, whether it’s a complex algorithm, a system design puzzle, or a business process.
+
+* **Full-Stack Curiosity:** My passion for technology isn't just limited to software. I'm fascinated by the entire stack, from scalable AI applications down to the physics of semiconductor fabrication.
+
+* **Competitive Spirit:** Outside of code, I'm an avid FPS gamer and tennis player. I bring the same focus and drive for improvement from the game server and the court to my development work.
+
+---
+
+### 📫 Let's Connect
+
+<p align="left">
+  <a href="https://twitter.com/AlgoAnkit" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  </a>
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_PROFILE" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+</p>
