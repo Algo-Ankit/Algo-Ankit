@@ -14,30 +14,30 @@ I'm a Computer Science student from Jaipur, driven by a deep passion for buildin
 
 ### 🛠️ My Tech Stack
 
-<details align="center">
-  <summary>Click to expand</summary>
-  <p align="center">
-    <strong>Languages:</strong><br>
-    <a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" /></a>
-    <a href="#"><img alt="Java" src="https://img.shields.io/badge/Java-007396.svg?style=for-the-badge&logo=java&logoColor=white" /></a>
-    <a href="#"><img alt="C++" src="https://img.shields.io/badge/C++-00599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white" /></a>
-    <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" /></a>
-  </p>
-  <p align="center">
-    <strong>AI/ML & Data Science:</strong><br>
-    <a href="#"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white" /></a>
-    <a href="#"><img alt="Scikit-learn" src="https://img.shields.io/badge/scikit_learn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" /></a>
-    <a href="#"><img alt="Pandas" src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white" /></a>
-    <a href="#"><img alt="NumPy" src="https://img.shields.io/badge/numpy-013243.svg?style=for-the-badge&logo=numpy&logoColor=white" /></a>
-  </p>
-    <p align="center">
-    <strong>Tools & Platforms:</strong><br>
-    <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white" /></a>
-    <a href="#"><img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white" /></a>
-    <a href="#"><img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" /></a>
-    <a href="#"><img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black" /></a>
-  </p>
-</details>
+*Here are some of the key technologies I've been working with:*
+
+<table width="100%">
+  <tr>
+    <td align="center">
+      <h4 >Frontend</h4>
+      <a href="#"><img src="https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black" alt="React"/></a>
+      <a href="#"><img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/></a>
+    </td>
+    <td align="center">
+      <h4>Backend</h4>
+      <a href="#"><img src="https://img.shields.io/badge/Django-092E20.svg?style=for-the-badge&logo=django&logoColor=white" alt="Django"/></a>
+      <a href="#"><img src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></a>
+      <a href="#"><img src="https://img.shields.io/badge/Java-007396.svg?style=for-the-badge&logo=java&logoColor=white" alt="Java"/></a>
+    </td>
+    <td align="center">
+      <h4>AI / Machine Learning</h4>
+      <a href="#"><img src="https://img.shields.io/badge/TensorFlow-FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/></a>
+      <a href="#"><img src="https://img.shields.io/badge/scikit_learn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/></a>
+      <a href="#"><img src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/></a>
+    </td>
+  </tr>
+</table>
+
 
 ### ⭐ Highlight Project
 
