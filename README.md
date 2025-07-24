@@ -1,9 +1,11 @@
+### Hey there, I'm Ankit 👋
 I'm a **Engineering** final-year undergrad from  **National Institute Of Technology Jaipur**(NIT Jaipur)with a deep passion for building **scalable software systems** and **intelligent AI solutions**. While my academic background lies in materials science and semiconductors, I actively apply my skills in **software development**, **machine learning**, and **competitive programming** to real-world challenges.
 
 <p align="center">
   <a href="https://twitter.com/AlgoAnkit" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" />
+    <img src="https://img.shields.io/badge/X-000000.svg?style=for-the-badge&logo=x&logoColor=white" alt="X (formerly Twitter)" />
   </a>
+  
   <a href="https://www.linkedin.com/in/ankit-anand-singh-27076b262/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
