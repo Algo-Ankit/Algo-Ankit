@@ -3,13 +3,21 @@ I'm a **Engineering** final-year undergrad from  **National Institute Of Technol
 
 <p align="center">
   <a href="https://twitter.com/AlgoAnkit" target="_blank">
-    <img src="https://img.shields.io/badge/X-000000.svg?style=for-the-badge&logo=x&logoColor=white" alt="X (formerly Twitter)" />
+    <img
+      src="https://img.shields.io/badge/X-000000.svg?style=for-the-badge&logo=x&logoColor=white"
+      alt="X (formerly Twitter)"
+      style="border-radius:8px; margin:0 8px;"
+    />
   </a>
-  
   <a href="https://www.linkedin.com/in/ankit-anand-singh-27076b262/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img
+      src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white"
+      alt="LinkedIn"
+      style="border-radius:8px; margin:0 8px;"
+    />
   </a>
 </p>
+
 
 ### 🛠️ My Tech Stack
 
