@@ -3,8 +3,6 @@
 
 I'm a Computer Science student from Jaipur, driven by a deep passion for building scalable software and intelligent systems. I thrive on the challenge of competitive programming and apply that same rigor to every project I undertake.
 
-<br>
-
 <p align="center">
   <a href="https://twitter.com/AlgoAnkit" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
@@ -20,7 +18,6 @@ I'm a Computer Science student from Jaipur, driven by a deep passion for buildin
 
 <details align="center">
   <summary>Click to expand</summary>
-  <br>
   <p align="center">
     <strong>Languages:</strong><br>
     <a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" /></a>
