@@ -42,6 +42,28 @@ I'm a **Engineering** final-year undergrad from  **National Institute Of Technol
       <img src="https://github.com/Algo-Ankit/smartstock-optimizer/blob/main/Recording%202025-07-24%20211359.gif" alt="Project Visual" />
     </td>
   </tr>
+
+  <tr>
+    <td width="65%">
+      <h4 align="center">DevHub Discussion Forum</h4>
+      <p>
+        A full-stack <strong>Django-powered</strong> discussion platform designed for collaborative learning and topic-based conversations. Built with user authentication, dynamic room creation, and real-time thread updates:
+        <ul>
+          <li><b>User Auth:</b> Register, login/logout, and edit profile with avatars.</li>
+          <li><b>Dynamic Rooms:</b> Create and join topic-based discussion rooms with message threads.</li>
+          <li><b>Search + Explore:</b> Browse and filter rooms based on keywords or topics.</li>
+        </ul>
+      </p>
+      <p align="center">
+        <a href="https://github.com/Algo-Ankit/devhub-discussion-forum" target="_blank"><img src="https://img.shields.io/badge/View_Code-232F3E?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/></a>
+        <a href="https://devhub.onrender.com" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-FF4B4B?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo"/></a>
+      </p>
+    </td>
+    <td width="35%">
+      <img src="https://github.com/Algo-Ankit/devhub-discussion-forum/blob/main/media/demo.gif" alt="DevHub Demo" />
+    </td>
+  </tr>
+  
 </table>
 
 ---
