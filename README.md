@@ -68,6 +68,20 @@ I'm a **Engineering** final-year undergrad from  **National Institute Of Technol
 
 ---
 
+### 🧠 Competitive Programming Repositories
+
+<p align="center">
+  <a href="https://github.com/Algo-Ankit/Codeforces_Solutions" target="_blank">
+    <img src="https://img.shields.io/badge/Codeforces_Solutions-1F8ACB.svg?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces Solutions"/>
+  </a>
+  <a href="https://github.com/Algo-Ankit/Leetcode_Solutions" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode_Solutions-FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Solutions"/>
+  </a>
+</p>
+
+
+---
+
 ### 🎮 Beyond the Keyboard
 
 - **Gaming:** I'm an avid FPS player. The strategy, teamwork, and quick decision-making are aspects I enjoy and apply to my problem-solving approach.
