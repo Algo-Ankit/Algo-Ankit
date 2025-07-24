@@ -55,8 +55,8 @@ I'm a **Engineering** final-year undergrad from  **National Institute Of Technol
         </ul>
       </p>
       <p align="center">
-        <a href="https://github.com/Algo-Ankit/devhub-discussion-forum" target="_blank"><img src="https://img.shields.io/badge/View_Code-232F3E?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/></a>
-        <a href="https://devhub.onrender.com" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-FF4B4B?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo"/></a>
+        <a href="https://github.com/Algo-Ankit/Discussion_Forum" target="_blank"><img src="https://img.shields.io/badge/View_Code-232F3E?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/></a>
+        <a href="https://devhub-28rg.onrender.com" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-FF4B4B?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo"/></a>
       </p>
     </td>
     <td width="35%">
