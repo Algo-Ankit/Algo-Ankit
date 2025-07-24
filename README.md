@@ -46,12 +46,6 @@ I'm a **Engineering** final-year undergrad from  **National Institute Of Technol
 
 ---
 
-### 💡 My Philosophy
-
-* **Problem-First Mindset:** I believe the most elegant solutions come from a deep understanding of the problem itself. This is a principle I carry over from competitive programming into all my development work.
-
-* **Full-Stack Curiosity:** My passion for technology isn't just limited to software. I'm fascinated by the entire stack, from scalable AI applications down to the physics of semiconductor fabrication that powers them.
-
 ### 🎮 Beyond the Keyboard
 
 - **Gaming:** I'm an avid FPS player. The strategy, teamwork, and quick decision-making are aspects I enjoy and apply to my problem-solving approach.
