@@ -12,8 +12,6 @@ I'm a Computer Science student from Jaipur, driven by a deep passion for buildin
   </a>
 </p>
 
----
-
 ### 🛠️ My Tech Stack
 
 <details align="center">
@@ -36,24 +34,23 @@ I'm a Computer Science student from Jaipur, driven by a deep passion for buildin
     <strong>Tools & Platforms:</strong><br>
     <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white" /></a>
     <a href="#"><img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white" /></a>
-    <a href="#"><img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" /></a>
+    <a href="#"><img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" /></a>
     <a href="#"><img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black" /></a>
   </p>
 </details>
-
----
 
 ### ⭐ Highlight Project
 
 <table>
   <tr>
     <td width="65%">
-      <h4 align="center">SupplyChain Optimizer</h4>
+      <h4 align="center">SmartStock Optimizer</h4>
       <p>
-        A smart platform that reimagines supply chain distribution by implementing advanced optimization algorithms. The system is designed to cut operational costs, reduce material waste, and streamline transportation logistics for warehouse-based models.
+        An interactive web application built with Streamlit to analyze stock performance and optimize portfolio strategies. Users can visualize data, apply financial models, and receive data-driven investment insights.
       </p>
       <p align="center">
-        <a href="LINK_TO_YOUR_PROJECT_REPO" target="_blank"><img src="https://img.shields.io/badge/View_Code-232F3E?style=for-the-badge&logo=github&logoColor=white" /></a>
+        <a href="https://github.com/Algo-Ankit/smartstock-optimizer" target="_blank"><img src="https://img.shields.io/badge/View_Code-232F3E?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/></a>
+        <a href="https://smartstock-optimizer-wy579k5xubnwdezrkryeke.streamlit.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Demo"/></a>
       </p>
     </td>
     <td width="35%">
@@ -75,7 +72,7 @@ I'm a Computer Science student from Jaipur, driven by a deep passion for buildin
 ### 🎮 Beyond the Keyboard
 
 - **Gaming:** I'm an avid FPS player. The strategy, teamwork, and quick decision-making are aspects I enjoy and apply to my problem-solving approach.
-- **Sports:** You can find me on the tennis court. The discipline and focus required are a great mental reset.
+- **Sports:** Played Tennis as a hobby.
 - **Research:** I enjoy reading research papers on materials science and semiconductor innovation, exploring the foundation of modern computing.
 
 ---
