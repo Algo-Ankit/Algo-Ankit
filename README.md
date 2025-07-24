@@ -19,38 +19,6 @@ I'm a **Engineering** final-year undergrad from  **National Institute Of Technol
   </a>
 </p>
 
-
-### 🛠️ My Tech Stack
-
-*A snapshot of the languages, frameworks, and tools I've worked with.*
-
-<p align="center">
-  <strong>Languages:</strong><br>
-  <a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" /></a>
-  <a href="#"><img alt="C++" src="https://img.shields.io/badge/C++-00599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white" /></a>
-  <a href="#"><img alt="Java" src="https://img.shields.io/badge/Java-007396.svg?style=for-the-badge&logo=java&logoColor=white" /></a>
-  <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" /></a>
-</p>
-
-<p align="center">
-  <strong>Frameworks & Libraries:</strong><br>
-  <a href="#"><img alt="Django" src="https://img.shields.io/badge/Django-092E20.svg?style=for-the-badge&logo=django&logoColor=white" /></a>
-  <a href="#"><img alt="React" src="https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black" /></a>
-  <a href="#"><img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white" /></a>
-  <a href="#"><img alt="Scikit-learn" src="https://img.shields.io/badge/scikit_learn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" /></a>
-  <a href="#"><img alt="Pandas" src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white" /></a>
-</p>
-
-<p align="center">
-  <strong>Databases & Tools:</strong><br>
-  <a href="#"><img alt="SQL" src="https://img.shields.io/badge/SQL-4479A1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white" /></a>
-  <a href="#"><img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57.svg?style=for-the-badge&logo=sqlite&logoColor=white" /></a>
-  <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white" /></a>
-  <a href="#"><img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white" /></a>
-</p>
-
-
-
 ### ⭐ Highlight Project
 
 <table>
@@ -91,6 +59,36 @@ I'm a **Engineering** final-year undergrad from  **National Institute Of Technol
 - **Gaming:** I'm an avid FPS player. The strategy, teamwork, and quick decision-making are aspects I enjoy and apply to my problem-solving approach.
 - **Sports:** Played Tennis as a hobby.
 - **Research:** I enjoy reading research papers on materials science and semiconductor innovation, exploring the foundation of modern computing.
+
+---
+### 🛠️ My Tech Stack
+
+*A snapshot of the languages, frameworks, and tools I've worked with.*
+
+<p align="center">
+  <strong>Languages:</strong><br>
+  <a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" /></a>
+  <a href="#"><img alt="C++" src="https://img.shields.io/badge/C++-00599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white" /></a>
+  <a href="#"><img alt="Java" src="https://img.shields.io/badge/Java-007396.svg?style=for-the-badge&logo=java&logoColor=white" /></a>
+  <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" /></a>
+</p>
+
+<p align="center">
+  <strong>Frameworks & Libraries:</strong><br>
+  <a href="#"><img alt="Django" src="https://img.shields.io/badge/Django-092E20.svg?style=for-the-badge&logo=django&logoColor=white" /></a>
+  <a href="#"><img alt="React" src="https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black" /></a>
+  <a href="#"><img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white" /></a>
+  <a href="#"><img alt="Scikit-learn" src="https://img.shields.io/badge/scikit_learn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" /></a>
+  <a href="#"><img alt="Pandas" src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <strong>Databases & Tools:</strong><br>
+  <a href="#"><img alt="SQL" src="https://img.shields.io/badge/SQL-4479A1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white" /></a>
+  <a href="#"><img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57.svg?style=for-the-badge&logo=sqlite&logoColor=white" /></a>
+  <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white" /></a>
+  <a href="#"><img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white" /></a>
+</p>
 
 ---
 
