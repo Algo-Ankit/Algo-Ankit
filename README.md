@@ -44,9 +44,14 @@ I'm a Computer Science student from Jaipur, driven by a deep passion for buildin
 <table>
   <tr>
     <td width="65%">
-      <h4 align="center">SmartStock Optimizer</h4>
+      <h4 align="center">Walmart Supply Chain Optimizer</h4>
       <p>
-        Developed as a solution for a <strong>Walmart-sponsored hackathon</strong>, this interactive application tackles complex stock portfolio optimization. Built with Streamlit, it allows users to visualize financial data, apply predictive models, and receive data-driven insights to maximize returns.
+        Developed as a solution for a <strong>Walmart-sponsored hackathon</strong>, this project tackles critical supply chain challenges. The AI-powered dashboard provides a three-pronged solution to minimize costs and ensure product availability:
+        <ul>
+          <li><b>Demand Forecasting:</b> Uses an XGBoost model to accurately predict future sales.</li>
+          <li><b>Inventory Optimization:</b> Implements an EOQ model to recommend optimal stock levels.</li>
+          <li><b>Route Optimization:</b> Solves the Capacitated Vehicle Routing Problem (CVRP) to streamline logistics.</li>
+        </ul>
       </p>
       <p align="center">
         <a href="https://github.com/Algo-Ankit/smartstock-optimizer" target="_blank"><img src="https://img.shields.io/badge/View_Code-232F3E?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/></a>
