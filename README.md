@@ -9,6 +9,7 @@ I'm a **Engineering** final-year undergrad from  **National Institute Of Technol
       style="border-radius:8px; margin:0 8px;"
     />
   </a>
+  <br>
   <a href="https://www.linkedin.com/in/ankit-anand-singh-27076b262/" target="_blank">
     <img
       src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white"
