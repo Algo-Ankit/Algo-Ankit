@@ -59,7 +59,7 @@ I'm a Computer Science student from Jaipur, driven by a deep passion for buildin
       </p>
     </td>
     <td width="35%">
-      <img src="LINK_TO_YOUR_PROJECT_GIF_OR_SCREENSHOT.png" alt="Project Visual" />
+      <img src="https://github.com/Algo-Ankit/smartstock-optimizer/blob/main/Recording%202025-07-24%20211359.gif" alt="Project Visual" />
     </td>
   </tr>
 </table>
