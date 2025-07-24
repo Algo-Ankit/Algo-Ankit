@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="LINK_TO_YOUR_BANNER_IMAGE.png" alt="Ankit Anand Singh - Aspiring Software Engineer Banner"/>
-</p>
 
 ### Hey there, I'm Ankit 👋
 
@@ -12,14 +9,9 @@ I'm a Computer Science student from Jaipur, driven by a deep passion for buildin
   <a href="https://twitter.com/AlgoAnkit" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
   </a>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_PROFILE" target="_blank">
+  <a href="https://www.linkedin.com/in/ankit-anand-singh-27076b262/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AlgoAnkit&show_icons=true&theme=tokyonight&icon_color=79ff97&hide_border=true&count_private=true" alt="Ankit's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlgoAnkit&layout=compact&theme=tokyonight&hide_border=true" alt="Ankit's Top Languages" />
 </p>
 
 ---
@@ -65,7 +57,7 @@ I'm a Computer Science student from Jaipur, driven by a deep passion for buildin
       </p>
       <p align="center">
         <a href="LINK_TO_YOUR_PROJECT_REPO" target="_blank"><img src="https://img.shields.io/badge/View_Code-232F3E?style=for-the-badge&logo=github&logoColor=white" /></a>
-        </p>
+      </p>
     </td>
     <td width="35%">
       <img src="LINK_TO_YOUR_PROJECT_GIF.gif" alt="Project GIF" />
