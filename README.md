@@ -1,5 +1,5 @@
 ### Hey there, I'm Ankit 👋
-I'm a **Engineering** final-year undergrad from  **National Institute Of Technology Jaipur**(NIT Jaipur)with a deep passion for building **scalable software systems** and **intelligent AI solutions**. While my academic background lies in materials science and semiconductors, I actively apply my skills in **software development**, **machine learning**, and **competitive programming** to real-world challenges.
+I'm a **Engineering** final-year undergrad from  **National Institute Of Technology Jaipur** (NIT Jaipur)with a deep passion for building **scalable software systems** and **intelligent AI solutions**. While my academic background lies in materials science and semiconductors, I actively apply my skills in **software development**, **machine learning**, and **competitive programming** to real-world challenges.
 
 <p align="center">
   <a href="https://twitter.com/AlgoAnkit" target="_blank">
@@ -51,8 +51,6 @@ I'm a **Engineering** final-year undergrad from  **National Institute Of Technol
 * **Problem-First Mindset:** I believe the most elegant solutions come from a deep understanding of the problem itself. This is a principle I carry over from competitive programming into all my development work.
 
 * **Full-Stack Curiosity:** My passion for technology isn't just limited to software. I'm fascinated by the entire stack, from scalable AI applications down to the physics of semiconductor fabrication that powers them.
-
----
 
 ### 🎮 Beyond the Keyboard
 
