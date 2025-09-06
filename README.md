@@ -71,7 +71,7 @@ I'm a **Engineering** final-year undergrad from  **National Institute Of Technol
 ### Competitive Programming Repositories
 
 <p align="center">
-  <a href="https://github.com/Algo-Ankit/Codeforces_Solutions" target="_blank">
+  <a href="https://github.com/Algo-Ankit/DSA" target="_blank">
     <img src="https://img.shields.io/badge/Codeforces_Solutions-1F8ACB.svg?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces Solutions"/>
   </a>
   <br>
