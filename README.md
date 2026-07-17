@@ -1,126 +1,235 @@
-### Hey there, I'm Ankit 👋
-I'm a **Engineering** final-year undergrad from  **National Institute Of Technology Jaipur** (NIT Jaipur) with a deep passion for building **scalable software systems** and **intelligent AI solutions**. While my academic background lies in materials science and semiconductors, I actively apply my skills in **software development**, **machine learning**, and **competitive programming** to real-world challenges.
+<!-- ─────────────────────────  HEADER  ───────────────────────── -->
 
 <p align="center">
-  <a href="https://twitter.com/AlgoAnkit" target="_blank">
-    <img
-      src="https://img.shields.io/badge/X-000000.svg?style=for-the-badge&logo=x&logoColor=white"
-      alt="X (formerly Twitter)"
-      style="border-radius:8px; margin:0 8px;"
-    />
-  </a>
-  <br>
-  <a href="https://www.linkedin.com/in/ankit-anand-singh-27076b262/" target="_blank">
-    <img
-      src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white"
-      alt="LinkedIn"
-      style="border-radius:8px; margin:0 8px;"
-    />
-  </a>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F8ACB,50:5E5CE6,100:0F2027&height=180&section=header&text=Ankit%20Anand%20Singh&fontSize=52&fontColor=ffffff&fontAlignY=32&desc=AI%20Systems%20%C2%B7%20Quant%20Infrastructure%20%C2%B7%20Data%20Science&descSize=17&descAlignY=54&animation=fadeIn" alt="Ankit Anand Singh" />
 </p>
 
-### ⭐ Highlight Project
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1000&color=5E5CE6&center=true&vCenter=true&width=620&lines=Building+AlphaSwarm+%E2%80%94+your+AI+quant+team%2C+in+a+browser+tab;LLM+agents+that+write%2C+sandbox+and+trade+real+strategies;Gen+AI+on+Azure+%C2%B7+Microsoft+Agent+Framework+%C2%B7+Python" alt="What I build" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/ankit-anand-singh-27076b262/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="https://twitter.com/AlgoAnkit" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+</p>
+
+<p align="center">
+  <em>Engineer from <b>NIT Jaipur</b>. Materials science &amp; semiconductors by training —<br/>
+  AI systems, quantitative infrastructure, and data science by practice.</em>
+</p>
+
+<br/>
+
+<!-- ─────────────────────  CURRENTLY BUILDING  ───────────────────── -->
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/%20-CURRENTLY%20BUILDING-5E5CE6?style=for-the-badge&labelColor=0F2027" alt="Currently building" />
+
+# AlphaSwarm
+
+### *Your AI quant team, in a browser tab.*
+
+<img src="https://img.shields.io/badge/Status-MVP%20in%20development-success?style=flat-square" alt="Status" />
+<img src="https://img.shields.io/badge/Repo-Private%20%C2%B7%20access%20on%20request-8A8A8E?style=flat-square" alt="Private" />
+<img src="https://img.shields.io/badge/Demo-recording%20coming%20soon-1F8ACB?style=flat-square" alt="Demo soon" />
+
+</div>
+
+> A **multi-tenant SaaS platform** where you describe a trading strategy in plain English — or set a goal like *"retire by 50"* — and an LLM agent writes the Python, runs it inside a hardened sandbox, backtests it against institutional-grade slippage and market-impact modelling, and trades it through **your own broker**.
+>
+> Built as a pro trading terminal, a wealth-management copilot, and a GitHub-style commons of forkable strategies — with zero infrastructure to run and no Bloomberg subscription.
+>
+> **It never touches your money.** Funds stay in your own Zerodha / Upstox / Angel One / Alpaca account. It's software that sends orders on your behalf — not a broker, not a fund. That is the entire trust model.
+
+```mermaid
+flowchart LR
+    A["🗣️ Plain English<br/>'Buy RELIANCE when<br/>RSI(14) drops below 30'"] --> B["🤖 LLM Strategy Compiler<br/><i>Microsoft Agent Framework</i>"]
+    B --> C["🔒 Hardened Sandbox<br/><i>RestrictedPython</i>"]
+    C --> D["📊 Backtester<br/><i>slippage + market impact</i>"]
+    D --> E["🛡️ Risk Engine<br/><i>verify_order_intent()</i>"]
+    E --> F["🏦 Your Own Broker<br/><i>Zerodha · Upstox<br/>Angel One · Alpaca</i>"]
+
+    style A fill:#1F8ACB,stroke:#0F2027,color:#fff
+    style B fill:#5E5CE6,stroke:#0F2027,color:#fff
+    style C fill:#DC382D,stroke:#0F2027,color:#fff
+    style D fill:#009688,stroke:#0F2027,color:#fff
+    style E fill:#FF6F00,stroke:#0F2027,color:#fff
+    style F fill:#37814A,stroke:#0F2027,color:#fff
+```
+
+<br/>
 
 <table>
-  <tr>
-    <td width="65%">
-      <h4 align="center">Walmart Supply Chain Optimizer</h4>
-      <p>
-        Developed as a solution for a <strong>Walmart-sponsored hackathon</strong>, this project tackles critical supply chain challenges. The AI-powered dashboard provides a three-pronged solution to minimize costs and ensure product availability:
-        <ul>
-          <li><b>Demand Forecasting:</b> Uses an XGBoost model to accurately predict future sales.</li>
-          <li><b>Inventory Optimization:</b> Implements an EOQ model to recommend optimal stock levels.</li>
-          <li><b>Route Optimization:</b> Solves the Capacitated Vehicle Routing Problem (CVRP) to streamline logistics.</li>
-        </ul>
-      </p>
-      <p align="center">
-        <a href="https://github.com/Algo-Ankit/smartstock-optimizer" target="_blank"><img src="https://img.shields.io/badge/View_Code-232F3E?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/></a>
-        <a href="https://smartstock-optimizer-wy579k5xubnwdezrkryeke.streamlit.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Demo"/></a>
-      </p>
-    </td>
-    <td width="35%">
-      <img src="https://github.com/Algo-Ankit/smartstock-optimizer/blob/main/Recording%202025-07-24%20211359.gif" alt="Project Visual" />
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
 
-  <tr>
-    <td width="65%">
-      <h4 align="center">DevHub Discussion Forum</h4>
-      <p>
-        A full-stack <strong>Django-powered</strong> discussion platform designed for collaborative learning and topic-based conversations. Built with user authentication, dynamic room creation, and real-time thread updates:
-        <ul>
-          <li><b>User Auth:</b> Register, login/logout, and edit profile with avatars.</li>
-          <li><b>Dynamic Rooms:</b> Create and join topic-based discussion rooms with message threads.</li>
-          <li><b>Search + Explore:</b> Browse and filter rooms based on keywords or topics.</li>
-        </ul>
-      </p>
-      <p align="center">
-        <a href="https://github.com/Algo-Ankit/Discussion_Forum" target="_blank"><img src="https://img.shields.io/badge/View_Code-232F3E?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/></a>
-        <a href="https://devhub-28rg.onrender.com" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-FF4B4B?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo"/></a>
-      </p>
-    </td>
-    <td width="35%">
-      <img src="https://github.com/Algo-Ankit/devhub-discussion-forum/blob/main/media/demo.gif" alt="DevHub Demo" />
-    </td>
-  </tr>
-  
+#### 🧠 The AI Layer
+- **LLM strategy compiler** — plain English becomes validated, executable Python
+- **Microsoft Agent Framework** with a ReAct loop and a sandbox-validate tool
+- **Bring-your-own-key** — your LLM provider, your key, your cost
+- **AI investment advisor** with RAG over your own portfolio
+- **Goal Wizard** — *"₹50L in 20 years"* becomes a real SIP portfolio
+
+</td>
+<td width="50%" valign="top">
+
+#### 🔒 The Trust Layer
+- **Hardened sandbox** — str-subclass guards, format denylist, SIGALRM exec timeouts
+- **Risk is sacred** — `verify_order_intent()` runs before *every* broker call, no bypasses
+- **Daily notional caps** and market-hours gating
+- **HKDF envelope encryption** for broker credentials — ~21,000× faster than the PBKDF2 it replaced
+- **Multi-tenant isolation** — `tenant_id` enforced on every query
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 📈 The Quant Layer
+- **Prop-grade backtester** — models slippage *and* market impact, not fantasy fills
+- **Out-of-sample honesty scoring** — strategies can't lie about their own results
+- **Monte Carlo wealth forecaster** (GBM) across a unified multi-broker portfolio
+- **Multi-broker CAS ingestion** — one view of everything you own
+- **pandas-ta indicators** — RSI, MACD, Bollinger, ATR, EMA, VWAP
+
+</td>
+<td width="50%" valign="top">
+
+#### 🌐 The Product Layer
+- **Bloomberg-style terminal** — candles, overlays, news, AI forecasts, live P&L over WebSockets
+- **Strategy Commons** — GitHub-style fork graphs and immutable pinned versions
+- **Swarm copy-trading** — a leaderboard of forkable, honestly-scored strategies
+- **Creator monetization** — 1% Swarm Tax, split 50/50
+- **SIPs** you can pause, resume, top up, and rebalance
+
+</td>
+</tr>
 </table>
 
+<div align="center">
 
+<sub><b>Under the hood</b></sub><br/>
+<img src="https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=next.js&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL_16-336791?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis_7-DC382D?style=flat-square&logo=redis&logoColor=white" />
+<img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" />
+<img src="https://img.shields.io/badge/Microsoft_Agent_Framework-5E5CE6?style=flat-square&logo=microsoft&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" />
 
-### Competitive Programming Repositories
+</div>
+
+<!-- DEMO RECORDING: drop the GIF/MP4 in here when it's ready, e.g.
+<div align="center">
+  <img src="demo.gif" alt="AlphaSwarm demo" width="80%" />
+</div>
+-->
+
+<br/>
+
+<!-- ─────────────────────────  SKILLS  ───────────────────────── -->
+
+<div align="center">
+
+## 🛠️ What I Work With
+
+</div>
+
+<table>
+<tr>
+<td valign="top" width="33%" align="center">
+
+**AI / Gen AI**
+
+<img src="https://img.shields.io/badge/Microsoft_Agent_Framework-5E5CE6?style=flat-square&logo=microsoft&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/Azure_AI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/Azure_ML-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/LLM_Agents-5E5CE6?style=flat-square&logo=openai&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/RAG-FF6F00?style=flat-square&logo=databricks&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/No--Code_Workflows-1F8ACB?style=flat-square&logo=zapier&logoColor=white" />
+
+</td>
+<td valign="top" width="33%" align="center">
+
+**Data Science**
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+
+</td>
+<td valign="top" width="33%" align="center">
+
+**Systems & Infra**
+
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /><br/>
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+<sub><b>Also fluent in</b></sub><br/>
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+</div>
+
+<br/>
+
+<!-- GitHub stats cards intentionally omitted: the public github-readme-stats
+     instance is rate-limited and was serving 503s, which renders as a broken
+     image on the profile. Re-add if you self-host it. -->
+
+<!-- ─────────────────────  COMPETITIVE PROGRAMMING  ───────────────────── -->
+
+<div align="center">
+
+## ⚔️ Competitive Programming
+
+<a href="https://github.com/Algo-Ankit/DSA" target="_blank"><img src="https://img.shields.io/badge/Codeforces_Solutions-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" /></a>
+&nbsp;
+<a href="https://github.com/Algo-Ankit/Leetcode_Solutions" target="_blank"><img src="https://img.shields.io/badge/LeetCode_Solutions-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
+
+</div>
+
+<br/>
+
+<!-- ─────────────────────  BEYOND THE KEYBOARD  ───────────────────── -->
+
+<div align="center">
+
+## 🎮 Beyond the Keyboard
+
+</div>
 
 <p align="center">
-  <a href="https://github.com/Algo-Ankit/DSA" target="_blank">
-    <img src="https://img.shields.io/badge/Codeforces_Solutions-1F8ACB.svg?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces Solutions"/>
-  </a>
-  <br>
-  <a href="https://github.com/Algo-Ankit/Leetcode_Solutions" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode_Solutions-FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Solutions"/>
-  </a>
+<b>🎯 FPS gaming</b> — strategy, teamwork, and split-second decisions, which map to debugging better than they should.<br/>
+<b>🎾 Tennis</b> — played as a hobby.<br/>
+<b>📄 Research</b> — materials science and semiconductor papers, the foundation under everything else here.
 </p>
 
-
----
-
-### 🎮 Beyond the Keyboard
-
-- **Gaming:** I'm an avid FPS player. The strategy, teamwork, and quick decision-making are aspects I enjoy and apply to my problem-solving approach.
-- **Sports:** Played Tennis as a hobby.
-- **Research:** I enjoy reading research papers on materials science and semiconductor innovation, exploring the foundation of modern computing.
-
----
-### 🛠️ My Tech Stack
-
-*A snapshot of the languages, frameworks, and tools I've worked with.*
+<br/>
 
 <p align="center">
-  <strong>Languages:</strong><br>
-  <a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" /></a>
-  <a href="#"><img alt="C++" src="https://img.shields.io/badge/C++-00599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white" /></a>
-  <a href="#"><img alt="Java" src="https://img.shields.io/badge/Java-007396.svg?style=for-the-badge&logo=java&logoColor=white" /></a>
-  <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" /></a>
+  <em>"I love cracking tough problems — whether it's a puzzle, a program, or a process."</em>
 </p>
 
 <p align="center">
-  <strong>Frameworks & Libraries:</strong><br>
-  <a href="#"><img alt="Django" src="https://img.shields.io/badge/Django-092E20.svg?style=for-the-badge&logo=django&logoColor=white" /></a>
-  <a href="#"><img alt="React" src="https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black" /></a>
-  <a href="#"><img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white" /></a>
-  <a href="#"><img alt="Scikit-learn" src="https://img.shields.io/badge/scikit_learn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" /></a>
-  <a href="#"><img alt="Pandas" src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white" /></a>
-</p>
-
-<p align="center">
-  <strong>Databases & Tools:</strong><br>
-  <a href="#"><img alt="SQL" src="https://img.shields.io/badge/SQL-4479A1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white" /></a>
-  <a href="#"><img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57.svg?style=for-the-badge&logo=sqlite&logoColor=white" /></a>
-  <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white" /></a>
-  <a href="#"><img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white" /></a>
-</p>
-
----
-
-<p align="center">
-  <i>“I love cracking tough problems—whether it’s a puzzle, a program, or a process.”</i>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:5E5CE6,100:1F8ACB&height=120&section=footer" alt="" />
 </p>
