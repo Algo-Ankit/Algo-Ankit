@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1000&color=5E5CE6&center=true&vCenter=true&width=620&lines=Building+AlphaSwarm+%E2%80%94+your+AI+quant+team%2C+in+a+browser+tab;LLM+agents+that+write%2C+sandbox+and+trade+real+strategies;Gen+AI+on+Azure+%C2%B7+Microsoft+Agent+Framework+%C2%B7+Python" alt="What I build" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=5E5CE6&center=true&vCenter=true&width=850&height=45&lines=Building+AlphaSwarm%2C+an+AI+quant+team+in+a+browser+tab;LLM+agents+that+write%2C+sandbox+and+trade+real+strategies;Gen+AI+on+Azure+%7C+Microsoft+Agent+Framework+%7C+Python" alt="What I build" />
 </p>
 
 <p align="center">
@@ -15,8 +15,8 @@
 </p>
 
 <p align="center">
-  <em><b>Data Scientist &amp; AI Engineer</b> from <b>NIT Jaipur</b>. I build software —<br/>
-  LLM agent systems, quantitative infrastructure, and the production plumbing that holds them up.</em>
+  <b>Data Scientist</b> and <b>AI Engineer</b>. NIT Jaipur graduate.<br/>
+  <em>I build LLM agent systems, quantitative infrastructure, and the production plumbing that holds them up.</em>
 </p>
 
 <br/>
@@ -37,26 +37,63 @@
 
 </div>
 
-> A **multi-tenant SaaS platform** where you describe a trading strategy in plain English — or set a goal like *"retire by 50"* — and an LLM agent writes the Python, runs it inside a hardened sandbox, backtests it against institutional-grade slippage and market-impact modelling, and trades it through **your own broker**.
+> A **multi-tenant SaaS platform** where you describe a trading strategy in plain English, or set a goal like *"retire by 50"*, and an LLM agent writes the Python, runs it inside a hardened sandbox, backtests it against institutional-grade slippage and market-impact modelling, and trades it through **your own broker**.
 >
-> Built as a pro trading terminal, a wealth-management copilot, and a GitHub-style commons of forkable strategies — with zero infrastructure to run and no Bloomberg subscription.
+> Built as a pro trading terminal, a wealth-management copilot, and a GitHub-style commons of forkable strategies, with zero infrastructure to run and no Bloomberg subscription.
 >
-> **It never touches your money.** Funds stay in your own Zerodha / Upstox / Angel One / Alpaca account. It's software that sends orders on your behalf — not a broker, not a fund. That is the entire trust model.
+> **It never touches your money.** Funds stay in your own Zerodha / Upstox / Angel One / Alpaca account. It's software that sends orders on your behalf: not a broker, not a fund. That is the entire trust model.
 
 ```mermaid
 flowchart LR
-    A["🗣️ Plain English<br/>'Buy RELIANCE when<br/>RSI(14) drops below 30'"] --> B["🤖 LLM Strategy Compiler<br/><i>Microsoft Agent Framework</i>"]
-    B --> C["🔒 Hardened Sandbox<br/><i>RestrictedPython</i>"]
-    C --> D["📊 Backtester<br/><i>slippage + market impact</i>"]
-    D --> E["🛡️ Risk Engine<br/><i>verify_order_intent()</i>"]
-    E --> F["🏦 Your Own Broker<br/><i>Zerodha · Upstox<br/>Angel One · Alpaca</i>"]
+    UI["Next.js 14 Terminal<br/>candles · indicators · live P&amp;L"]
 
-    style A fill:#1F8ACB,stroke:#0F2027,color:#fff
-    style B fill:#5E5CE6,stroke:#0F2027,color:#fff
-    style C fill:#DC382D,stroke:#0F2027,color:#fff
-    style D fill:#009688,stroke:#0F2027,color:#fff
-    style E fill:#FF6F00,stroke:#0F2027,color:#fff
-    style F fill:#37814A,stroke:#0F2027,color:#fff
+    subgraph CONTROL["Control Plane"]
+        API["FastAPI"]
+        VAULT["Credential Vault<br/>HKDF envelope"]
+    end
+
+    subgraph AGENT["Agent Layer"]
+        LLM["Strategy Compiler<br/>Microsoft Agent Framework"]
+        SBX["RestrictedPython Sandbox<br/>exec timeout · escape guards"]
+    end
+
+    subgraph EXEC["Execution Plane"]
+        CELERY["Celery Workers"]
+        BT["Backtester<br/>slippage + market impact"]
+        RISK["Risk Engine<br/>verify_order_intent"]
+    end
+
+    subgraph DATA["Data Plane"]
+        PG[("PostgreSQL 16<br/>tenant-scoped")]
+        RD[("Redis 7")]
+    end
+
+    BROKER["Your Own Broker<br/>Zerodha · Upstox<br/>Angel One · Alpaca"]
+
+    UI -->|"plain English"| API
+    API --> LLM
+    LLM -->|"generated Python"| SBX
+    SBX -->|"validated"| BT
+    API --> CELERY
+    CELERY --> RISK
+    RISK -->|"approved orders only"| BROKER
+    VAULT -.->|"decrypt on use"| BROKER
+    CELERY --> PG
+    CELERY <--> RD
+
+    classDef client fill:#1F8ACB,stroke:#0B3C5D,color:#fff
+    classDef control fill:#009688,stroke:#00443F,color:#fff
+    classDef agent fill:#5E5CE6,stroke:#2A2870,color:#fff
+    classDef exec fill:#FF6F00,stroke:#7A3500,color:#fff
+    classDef data fill:#336791,stroke:#12293D,color:#fff
+    classDef broker fill:#37814A,stroke:#12331D,color:#fff
+
+    class UI client
+    class API,VAULT control
+    class LLM,SBX agent
+    class CELERY,RISK,BT exec
+    class PG,RD data
+    class BROKER broker
 ```
 
 <br/>
@@ -65,44 +102,44 @@ flowchart LR
 <tr>
 <td width="50%" valign="top">
 
-#### 🧠 The AI Layer
-- **LLM strategy compiler** — plain English becomes validated, executable Python
-- **Microsoft Agent Framework** with a ReAct loop and a sandbox-validate tool
-- **Bring-your-own-key** — your LLM provider, your key, your cost
-- **AI investment advisor** with RAG over your own portfolio
-- **Goal Wizard** — *"₹50L in 20 years"* becomes a real SIP portfolio
+#### The AI Layer
+- **LLM strategy compiler** turning plain English into validated, executable Python
+- **Microsoft Agent Framework** driving a ReAct loop with a sandbox-validate tool
+- **Bring-your-own-key**, so the LLM provider, key and cost stay yours
+- **AI investment advisor** with RAG grounded in your own portfolio
+- **Goal Wizard** that turns *"₹50L in 20 years"* into a real SIP portfolio
 
 </td>
 <td width="50%" valign="top">
 
-#### 🔒 The Trust Layer
-- **Hardened sandbox** — str-subclass guards, format denylist, SIGALRM exec timeouts
-- **Risk is sacred** — `verify_order_intent()` runs before *every* broker call, no bypasses
-- **Daily notional caps** and market-hours gating
-- **HKDF envelope encryption** for broker credentials — ~21,000× faster than the PBKDF2 it replaced
-- **Multi-tenant isolation** — `tenant_id` enforced on every query
+#### The Trust Layer
+- **Hardened sandbox** with str-subclass guards, a format denylist and SIGALRM exec timeouts
+- **Risk is sacred**: `verify_order_intent()` runs before *every* broker call, with no bypasses
+- **Daily notional caps** and market-hours gating on every order
+- **HKDF envelope encryption** for broker credentials, ~21,000× faster than the PBKDF2 it replaced
+- **Multi-tenant isolation** with `tenant_id` enforced on every query
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### 📈 The Quant Layer
-- **Prop-grade backtester** — models slippage *and* market impact, not fantasy fills
-- **Out-of-sample honesty scoring** — strategies can't lie about their own results
+#### The Quant Layer
+- **Prop-grade backtester** modelling slippage *and* market impact rather than fantasy fills
+- **Out-of-sample honesty scoring** so strategies cannot lie about their own results
 - **Monte Carlo wealth forecaster** (GBM) across a unified multi-broker portfolio
-- **Multi-broker CAS ingestion** — one view of everything you own
-- **pandas-ta indicators** — RSI, MACD, Bollinger, ATR, EMA, VWAP
+- **Multi-broker CAS ingestion** for one view of everything you own
+- **pandas-ta indicators**: RSI, MACD, Bollinger, ATR, EMA, VWAP
 
 </td>
 <td width="50%" valign="top">
 
-#### 🌐 The Product Layer
-- **Bloomberg-style terminal** — candles, overlays, news, AI forecasts, live P&L over WebSockets
-- **Strategy Commons** — GitHub-style fork graphs and immutable pinned versions
-- **Swarm copy-trading** — a leaderboard of forkable, honestly-scored strategies
-- **Creator monetization** — 1% Swarm Tax, split 50/50
-- **SIPs** you can pause, resume, top up, and rebalance
+#### The Product Layer
+- **Bloomberg-style terminal** with candles, overlays, news, AI forecasts and live P&L over WebSockets
+- **Strategy Commons** offering GitHub-style fork graphs and immutable pinned versions
+- **Swarm copy-trading** on a leaderboard of forkable, honestly-scored strategies
+- **Creator monetization** via a 1% Swarm Tax, split 50/50
+- **SIPs** you can pause, resume, top up and rebalance
 
 </td>
 </tr>
@@ -135,7 +172,7 @@ flowchart LR
 
 <div align="center">
 
-## 🛠️ What I Work With
+## What I Work With
 
 </div>
 
@@ -200,7 +237,7 @@ flowchart LR
 
 <div align="center">
 
-## ⚔️ Competitive Programming
+## Competitive Programming
 
 <a href="https://github.com/Algo-Ankit/DSA" target="_blank"><img src="https://img.shields.io/badge/Codeforces_Solutions-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" /></a>
 &nbsp;
@@ -214,13 +251,13 @@ flowchart LR
 
 <div align="center">
 
-## 🎮 Beyond the Keyboard
+## Beyond the Keyboard
 
 </div>
 
 <p align="center">
-<b>🎯 FPS gaming</b> — strategy, teamwork, and split-second decisions, which map to debugging better than they should.<br/>
-<b>🎾 Tennis</b> — played as a hobby.
+<b>FPS gaming.</b> Strategy, teamwork and split-second decisions, which map to debugging better than they should.<br/>
+<b>Tennis.</b> Played as a hobby.
 </p>
 
 <br/>
