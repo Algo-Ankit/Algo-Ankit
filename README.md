@@ -15,8 +15,8 @@
 </p>
 
 <p align="center">
-  <em>Engineer from <b>NIT Jaipur</b>. Materials science &amp; semiconductors by training —<br/>
-  AI systems, quantitative infrastructure, and data science by practice.</em>
+  <em><b>Data Scientist &amp; AI Engineer</b> from <b>NIT Jaipur</b>. I build software —<br/>
+  LLM agent systems, quantitative infrastructure, and the production plumbing that holds them up.</em>
 </p>
 
 <br/>
@@ -220,8 +220,7 @@ flowchart LR
 
 <p align="center">
 <b>🎯 FPS gaming</b> — strategy, teamwork, and split-second decisions, which map to debugging better than they should.<br/>
-<b>🎾 Tennis</b> — played as a hobby.<br/>
-<b>📄 Research</b> — materials science and semiconductor papers, the foundation under everything else here.
+<b>🎾 Tennis</b> — played as a hobby.
 </p>
 
 <br/>
