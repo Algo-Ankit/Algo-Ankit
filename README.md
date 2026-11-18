@@ -15,8 +15,7 @@
 
 ### Hi, I'm Ankit
 
-I'm an AI engineer and data scientist, an NIT Jaipur graduate living in Gurgaon. I build LLM systems for places where a wrong answer costs something real: money in a brokerage account, a student's visa deadline, a shop's stock.
-
+I'm an AI engineer and data scientist, an NIT Jaipur graduate living in Gurgaon. 
 Right now I'm running the answer-quality evals for Niyam and building a startup around AI agents for small shops (private while it's in development). I'm open to AI engineering roles and contract work.
 
 <br/>
