@@ -1,26 +1,23 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F8ACB,50:5E5CE6,100:0F2027&height=150&section=header&text=Ankit%20Anand%20Singh&fontSize=46&fontColor=ffffff&fontAlignY=38" alt="Ankit Anand Singh" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F8ACB,50:5E5CE6,100:0F2027&height=170&section=header&text=Ankit%20Anand%20Singh&fontSize=50&fontColor=ffffff&fontAlignY=34&desc=AI%20Engineer%20%C2%B7%20Data%20Scientist%20%C2%B7%20Gurgaon%2C%20India&descSize=16&descAlignY=56&animation=fadeIn" alt="Ankit Anand Singh: AI Engineer, Data Scientist" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/ankit-anand-singh-27076b262/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://x.com/AlgoAnkit"><img src="https://img.shields.io/badge/@AlgoAnkit-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
 </p>
 
 <h3 align="center">AI engineer building LLM systems where a wrong answer has a price.</h3>
 
 <p align="center">
-  Trading infrastructure · regulatory Q&A · small-business agents<br/>
-  NIT Jaipur · Gurgaon, India
+  Trading infrastructure · regulatory Q&A · small-business agents
 </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/ankit-anand-singh-27076b262/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
-  <a href="https://x.com/AlgoAnkit"><b>X</b></a> &nbsp;·&nbsp;
-  <a href="#selected-work"><b>Work</b></a> &nbsp;·&nbsp;
-  <a href="#work-with-me"><b>Work with me</b></a>
-</p>
+### Hi, I'm Ankit
 
-<br/>
+I'm an AI engineer and data scientist, an NIT Jaipur graduate living in Gurgaon. I build LLM systems for places where a wrong answer costs something real: money in a brokerage account, a student's visa deadline, a shop's stock.
 
-**Now:** running the answer-quality evals for Niyam, and building a startup around AI agents for small shops (private while it's in development).
-
-**Open to:** AI engineering roles, and select contract work on LLM features, eval harnesses and agent reliability.
+Right now I'm running the answer-quality evals for Niyam and building a startup around AI agents for small shops (private while it's in development). I'm open to AI engineering roles and contract work.
 
 <br/>
 
@@ -315,13 +312,9 @@ I'm building a startup around AI agents for small shops. It's private while it's
 
 <br/>
 
-## Work with me
+## Get in touch
 
-- **Hiring for AI / LLM engineering?** I'm most useful on agent reliability, evals, retrieval, and the guardrails around model output.
-- **Need a contractor?** I take on well-scoped LLM features, eval harnesses and RAG clean-ups.
-- **Building something in trading or regulated-answer territory?** I'd like to hear about it.
-
-The fastest way to reach me is a [LinkedIn message](https://www.linkedin.com/in/ankit-anand-singh-27076b262/). A short description of the problem is enough.
+If you're hiring for AI engineering, or you have a problem where LLM output has to be right, a [LinkedIn message](https://www.linkedin.com/in/ankit-anand-singh-27076b262/) is the fastest way to reach me. A short description of the problem is enough.
 
 <br/>
 
